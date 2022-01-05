@@ -1,4 +1,4 @@
-package com.example.c02structure.p06.internet;
+package com.example.c02structure.p06.common;
 
 public class Client {
     public static void main(String[] args) throws Exception {

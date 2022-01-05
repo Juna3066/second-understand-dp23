@@ -1,6 +1,6 @@
-package com.example.c02structure.p06.intranet;
+package com.example.c02structure.p06.dynamic;
 
-import com.example.c02structure.p06.internet.Internet;
+import com.example.c02structure.p06.common.Internet;
 
 import java.lang.reflect.Proxy;
 

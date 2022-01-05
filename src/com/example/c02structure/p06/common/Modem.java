@@ -1,4 +1,4 @@
-package com.example.c02structure.p06.internet;
+package com.example.c02structure.p06.common;
 
 /**
  * 调制解调器 Modem

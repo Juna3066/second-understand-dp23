@@ -1,4 +1,4 @@
-package com.example.c02structure.p06.intranet;
+package com.example.c02structure.p06.dynamic;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

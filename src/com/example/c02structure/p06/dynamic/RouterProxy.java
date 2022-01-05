@@ -1,10 +1,7 @@
-package com.example.c02structure.p06.intranet;
+package com.example.c02structure.p06.dynamic;
 
-import com.example.c02structure.p06.internet.Internet;
-import com.example.c02structure.p06.internet.Modem;
-
-import java.util.Arrays;
-import java.util.List;
+import com.example.c02structure.p06.common.Internet;
+import com.example.c02structure.p06.common.Modem;
 
 /**
  * 路由器
