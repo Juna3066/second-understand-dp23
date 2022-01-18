@@ -2,7 +2,8 @@ package com.pra01.command.bulb;
 
 public class FlashCommand implements Command {
     private Bulb bulb;
-    private Boolean flashFlag = false;
+    /*闪烁标志*/
+    private volatile Boolean neonFlag = false;
 
     public FlashCommand(Bulb bulb) {
         this.bulb = bulb;
@@ -10,12 +11,12 @@ public class FlashCommand implements Command {
 
     @Override
     public void exe() {
-        if (!flashFlag) {
-            flashFlag = true;
+        if (!neonFlag) {
+            neonFlag = true;
             System.out.println("闪烁模式开启");
             new Thread(() -> {
                 try {
-                    while (flashFlag) {
+                    while (neonFlag) {
                         bulb.on();
                         Thread.sleep(500);
                         bulb.off();
@@ -30,7 +31,7 @@ public class FlashCommand implements Command {
 
     @Override
     public void unExe() {
-        flashFlag = false;
+        neonFlag = false;
         System.out.println("闪烁模式关闭");
     }
 }
