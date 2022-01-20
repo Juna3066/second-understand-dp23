@@ -1,0 +1,23 @@
+代理的作用
+    一般有限制 或者 整合的功能
+    有点面向切面编程的感觉
+
+    本例子中
+    猫盒（调制解调器）被代理的对象，
+        首先抽象出一个上网的接口
+        它自身实现这个接口
+    然后代理类，路由器也实现这个接口
+        并且它强耦合被代理对象（构造方法实例化猫盒子）
+
+        再调用被代理对象的上网功能前，先执行自己的一些其他操作。
+
+关于动态代理
+     Internet dynamicRouter = (Internet) Proxy.newProxyInstance(DynamicRouter.class.getClassLoader(),
+     DynamicRouter.class.getInterfaces(), new BlackFilter(new DynamicRouter()));
+
+    代理对象，不需要写额外的内容
+    这些内容额外抽取一个额外的类，InvocationHandler 对应的方法，执行完自己逻辑后，
+    调用代理对象接口的实现。
+    return method.invoke(origin,arg);
+
+
