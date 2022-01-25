@@ -8,6 +8,7 @@ package com.example.c01create.p02;
  * 飞行 y++
  */
 public class EnemyPlane implements Cloneable{
+    private Bullet bullet = new Bullet();
     private int x;
     private int y = 0;
 
@@ -23,16 +24,25 @@ public class EnemyPlane implements Cloneable{
         return y;
     }
 
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public void setBullet(Bullet bullet) {
+        this.bullet = bullet;
+    }
+
     public void fly(){
         y++;
     }
 
     @Override
     protected EnemyPlane clone() throws CloneNotSupportedException {
-        return (EnemyPlane) super.clone();
+        EnemyPlane clone = (EnemyPlane) super.clone();
+        //深拷贝
+        //java变量有 基本类型 和 引用类型 下面用这句话就是 深拷贝
+        clone.setBullet(bullet.clone());
+        return clone;
     }
 
-    public void setX(int x) {
-        this.x = x;
-    }
 }

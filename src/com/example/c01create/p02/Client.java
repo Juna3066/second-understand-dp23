@@ -7,8 +7,8 @@ import java.util.Random;
 public class Client {
     public static void main(String[] args) throws CloneNotSupportedException {
         long startTime = System.currentTimeMillis();
-        createPlane();
-//        createPlane02();
+//        createPlane();
+        createPlane02();
         long endTime = System.currentTimeMillis();
         System.out.println("程序运行时间：" + (endTime - startTime) + "ms");
     }
