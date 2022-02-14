@@ -51,4 +51,14 @@ public class Editor {
         doc.restoreHistory(histories.get(--historyPosition));
         show();
     }
+
+    public void redo() {
+        System.out.println("<<<取消撤销操作");
+        //防止数组索引越界
+        if(historyPosition==histories.size()-1){
+            return;
+        }
+        doc.restoreHistory(histories.get(++historyPosition));
+        show();
+    }
 }

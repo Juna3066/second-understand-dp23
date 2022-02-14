@@ -11,5 +11,7 @@ public class Client {
         editor.delete();
 
         editor.undo();
+        editor.redo();
+        //editor.redo();
     }
 }
