@@ -5,6 +5,10 @@ import com.pra01.mediator.optimization.*;
 public class Client {
     public static void main(String[] args) {
         //demo01();
+        demo02();
+    }
+
+    private static void demo02() {
         PublicChartRoom chartRoom = new PublicChartRoom("娱乐圈");
         OrdinaryUser ming = new OrdinaryUser("小明");
         OrdinaryUser meng = new OrdinaryUser("小梦");
