@@ -33,9 +33,15 @@
 抽离迭代逻辑，独立于迭代器中。
 
 
+迭代器组成：
+Aggregate 集合接口（Iterable）
 
+ConcreteAggregate 集合实现（行车记录仪）
 
+Iterator (迭代器接口)
+ConcreteIterator (迭代器实现)
 
-
+CA 依赖 CI
+CI 关联 CA (迭代器实现 必会 访问 集合实现的 数据)
 
 
