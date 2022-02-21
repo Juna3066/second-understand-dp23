@@ -14,3 +14,9 @@
 需要什么功能，购买相关USB设备
 
 策略模式中，USB接口起到了关键的解耦作用
+
+组成
+
+Strategy 策略规范 （behavior()）
+ConcreteStrategy...
+Context 系统环境 （setStrategy() execute()） 聚合策略接口
