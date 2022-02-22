@@ -9,6 +9,6 @@ public class Modern implements Internet {
 
     @Override
     public void httpAccess(String url) {
-        System.out.println("访问-" + url);
+        System.out.println("访问:" + url);
     }
 }
