@@ -21,7 +21,7 @@ desc:以下内容参照图理解记忆
 * [02原型]()
 * [03工厂](src/com/example/c01create/p03/factory.md)
 * [04抽象工厂](src/com/example/c01create/p04/abstractFactory.md)
-* [05建造者]()
+* [05建造者](src/com/example/c01create/p05/builder.md)
 
 ## 2.结构型
 * [01门面](src/com/example/c02structure/p01/%E9%97%A8%E9%9D%A2.md)
