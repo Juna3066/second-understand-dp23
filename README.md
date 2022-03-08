@@ -4,6 +4,8 @@ desc:以下内容参照图理解记忆
 
 ![](./resources/总决.png)
 
+# [零 UML类图画法](src/com/example/c0classpic/UML.md)
+
 # 一 设计模式依赖于
     类的三大特性：
         封装、继承、多态。
