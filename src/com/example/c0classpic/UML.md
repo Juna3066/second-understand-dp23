@@ -1,6 +1,6 @@
 # UML类图画法
 
-> ClassPicBase01来源：https://www.cnblogs.com/lukefan/p/10048499.html
+> ClassPicBase01来源：https://www.cnblogs.com/lukefan/p/10048499.html<br>
 > ClassPicBase02来源：http://www.uml.org.cn/oobject/201905073.asp
 
 
