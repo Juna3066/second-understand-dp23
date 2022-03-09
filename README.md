@@ -27,7 +27,7 @@ desc:以下内容参照图理解记忆
 
 ## 2.结构型
 * [01门面](src/com/example/c02structure/p01/%E9%97%A8%E9%9D%A2.md)
-* [02组合]()
+* [02组合](src/com/example/c02structure/p02/Composite.md)
 * [03装饰器](src/com/example/c02structure/p03/%E8%A3%85%E9%A5%B0%E5%99%A8.md)
 * [04适配器](src/com/example/c02structure/p04/%E9%80%82%E9%85%8D%E5%99%A8.md)
 * [05享元](src/com/example/c02structure/p05/%E4%BA%AB%E5%85%83.md)
