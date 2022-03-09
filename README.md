@@ -19,7 +19,7 @@ desc:以下内容参照图理解记忆
     行为模式【11中】   （蓝如星海）
 
 ## 1.建造型
-* [01单例]()
+* [01单例](src/com/example/c01create/p01/Singleton.md)
 * [02原型](src/com/example/c01create/p02/prototype.md)
 * [03工厂](src/com/example/c01create/p03/factory.md)
 * [04抽象工厂](src/com/example/c01create/p04/abstractFactory.md)
