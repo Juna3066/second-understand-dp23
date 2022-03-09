@@ -20,7 +20,7 @@ desc:以下内容参照图理解记忆
 
 ## 1.建造型
 * [01单例]()
-* [02原型]()
+* [02原型](src/com/example/c01create/p02/prototype.md)
 * [03工厂](src/com/example/c01create/p03/factory.md)
 * [04抽象工厂](src/com/example/c01create/p04/abstractFactory.md)
 * [05建造者](src/com/example/c01create/p05/builder.md)
