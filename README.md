@@ -19,33 +19,33 @@ desc:以下内容参照图理解记忆
     行为模式【11中】   （蓝如星海）
 
 ## 1.建造型
-* [01单例](src/com/example/c01create/p01/Singleton.md)
+* [01单例](src/com/example/c01create/p01/singleton.md)
 * [02原型](src/com/example/c01create/p02/prototype.md)
 * [03工厂](src/com/example/c01create/p03/factory.md)
 * [04抽象工厂](src/com/example/c01create/p04/abstractFactory.md)
 * [05建造者](src/com/example/c01create/p05/builder.md)
 
 ## 2.结构型
-* [01门面](src/com/example/c02structure/p01/%E9%97%A8%E9%9D%A2.md)
-* [02组合](src/com/example/c02structure/p02/Composite.md)
-* [03装饰器](src/com/example/c02structure/p03/%E8%A3%85%E9%A5%B0%E5%99%A8.md)
-* [04适配器](src/com/example/c02structure/p04/%E9%80%82%E9%85%8D%E5%99%A8.md)
-* [05享元](src/com/example/c02structure/p05/%E4%BA%AB%E5%85%83.md)
-* [06代理](src/com/example/c02structure/p06/%E4%BB%A3%E7%90%86.md)
-* [07桥接](src/com/example/c02structure/p07/%E6%A1%A5%E6%8E%A5.md)
+* [01门面](src/com/example/c02structure/p01/facade.md)
+* [02组合](src/com/example/c02structure/p02/composite.md)
+* [03装饰器](src/com/example/c02structure/p03/decorator.md)
+* [04适配器](src/com/example/c02structure/p04/adapter.md)
+* [05享元](src/com/example/c02structure/p05/flyweight.md)
+* [06代理](src/com/example/c02structure/p06/proxy.md)
+* [07桥接](src/com/example/c02structure/p07/bridge.md)
 
 ![](./resources/蓝之多态的行为篇.png)
 ## 3.行为型
-* [01模板方法](src/com/example/c03behavior/p01/%E6%A8%A1%E6%9D%BF.md)
-* [02迭代器](src/com/example/c03behavior/p02/%E8%BF%AD%E4%BB%A3%E5%99%A8.md)
-* [03责任链](src/com/example/c03behavior/p03/%E8%B4%A3%E4%BB%BB%E9%93%BE.md)
+* [01模板方法](src/com/example/c03behavior/p01/templateMethod.md)
+* [02迭代器](src/com/example/c03behavior/p02/iterator.md)
+* [03责任链](src/com/example/c03behavior/p03/chainOfResponsibility.md)
 * [04策略](src/com/example/c03behavior/p04/strategy.md)
-* [05状态](src/com/example/c03behavior/p05/%E7%8A%B6%E6%80%81.md)
+* [05状态](src/com/example/c03behavior/p05/state.md)
 * [06备忘录](src/com/example/c03behavior/p06/memento.md)
-* [07中介](src/com/example/c03behavior/P07/%E4%B8%AD%E4%BB%8B)
+* [07中介](src/com/example/c03behavior/P07/mediator.md)
 * [08命令](src/com/example/c03behavior/p08/command.md)
-* [09访问者](src/com/example/c03behavior/p09/%E8%AE%BF%E9%97%AE%E8%80%85.md)
-* [10观察者](src/com/example/c03behavior/p10/%E8%A7%82%E5%AF%9F%E8%80%85.md)
+* [09访问者](src/com/example/c03behavior/p09/visitor.md)
+* [10观察者](src/com/example/c03behavior/p10/observer.md)
 * [11解释器]()
 
 ![](./resources/终道.png)
