@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.pra02.decorator</OriginalElement>
+  <nodes>
+    <node x="347.5" y="214.0">com.pra02.decorator.Lipstick</node>
+    <node x="168.25" y="0.0">com.pra02.decorator.Showable</node>
+    <node x="239.5271739130435" y="322.0">com.pra02.decorator.Client</node>
+    <node x="138.5" y="214.0">com.pra02.decorator.FoundationMakeup</node>
+    <node x="137.0" y="106.0">com.pra02.decorator.Decorator</node>
+    <node x="0.0" y="106.0">com.pra02.decorator.Girl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.pra02.decorator.Decorator" target="com.pra02.decorator.Showable" relationship="REALIZATION">
+      <point x="-30.25" y="-28.0" />
+      <point x="167.25" y="86.0" />
+      <point x="58.5" y="86.0" />
+      <point x="58.5" y="76.0" />
+      <point x="188.08333333333334" y="76.0" />
+      <point x="-39.66666666666666" y="28.0" />
+    </edge>
+    <edge source="com.pra02.decorator.Client" target="com.pra02.decorator.Lipstick" relationship="CREATE">
+      <point x="19.75" y="-28.0" />
+      <point x="338.2771739130435" y="291.0" />
+      <point x="406.0" y="291.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.pra02.decorator.FoundationMakeup" target="com.pra02.decorator.Decorator" relationship="GENERALIZATION">
+      <point x="-47.25" y="-28.0" />
+      <point x="185.75" y="193.0" />
+      <point x="197.5" y="193.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.pra02.decorator.Lipstick" target="com.pra02.decorator.Showable" relationship="DEPENDENCY">
+      <point x="29.25" y="-28.0" />
+      <point x="435.25" y="76.0" />
+      <point x="267.41666666666663" y="76.0" />
+      <point x="39.66666666666663" y="28.0" />
+    </edge>
+    <edge source="com.pra02.decorator.Girl" target="com.pra02.decorator.Showable" relationship="REALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="58.5" y="76.0" />
+      <point x="188.08333333333334" y="76.0" />
+      <point x="-39.66666666666666" y="28.0" />
+    </edge>
+    <edge source="com.pra02.decorator.FoundationMakeup" target="com.pra02.decorator.Showable" relationship="DEPENDENCY">
+      <point x="47.25" y="-28.0" />
+      <point x="280.25" y="183.0" />
+      <point x="268.5" y="183.0" />
+      <point x="268.5" y="86.0" />
+      <point x="435.25" y="86.0" />
+      <point x="435.25" y="76.0" />
+      <point x="267.41666666666663" y="76.0" />
+      <point x="39.66666666666663" y="28.0" />
+    </edge>
+    <edge source="com.pra02.decorator.Client" target="com.pra02.decorator.Girl" relationship="CREATE">
+      <point x="-59.25" y="-28.0" />
+      <point x="259.2771739130435" y="301.0" />
+      <point x="58.5" y="301.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.pra02.decorator.Lipstick" target="com.pra02.decorator.Decorator" relationship="GENERALIZATION">
+      <point x="-29.25" y="-28.0" />
+      <point x="376.75" y="193.0" />
+      <point x="197.5" y="193.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.pra02.decorator.Decorator" target="com.pra02.decorator.Showable" relationship="TO_ONE">
+      <point x="30.25" y="-28.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.pra02.decorator.Client" target="com.pra02.decorator.Showable" relationship="DEPENDENCY">
+      <point x="59.25" y="-28.0" />
+      <point x="377.7771739130435" y="301.0" />
+      <point x="475.0" y="301.0" />
+      <point x="475.0" y="86.0" />
+      <point x="435.25" y="86.0" />
+      <point x="435.25" y="76.0" />
+      <point x="267.41666666666663" y="76.0" />
+      <point x="39.66666666666663" y="28.0" />
+    </edge>
+    <edge source="com.pra02.decorator.Client" target="com.pra02.decorator.FoundationMakeup" relationship="CREATE">
+      <point x="-19.75" y="-28.0" />
+      <point x="298.7771739130435" y="291.0" />
+      <point x="233.0" y="291.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="167.5" y="209.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
